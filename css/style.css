@@ -211,6 +211,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-size: 32px;
     line-height: 38px;
   }
+  .slogan{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -349,8 +352,13 @@ section {
   .contact .contact-address, .contact .contact-phone, .contact .contact-email {
     padding: 20px 0;
   }
+  
 }
-
+@media screen and (max-width: 600px) {
+  .slogan{
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
