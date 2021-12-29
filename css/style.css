@@ -68,11 +68,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-top: -80px;
   z-index: 9;
+  border: 2px solid rgb(79, 165, 206);
+  box-shadow: 10px 10px 50px rgb(50, 116, 146);
+  box-shadow: inset 10px 10px 50px rgb(54, 141, 192);
+  filter: blur(8px);
+  -webkit-filter: blur(0.3px);
   /* countdown */
 }
 #hero .hero-container {
